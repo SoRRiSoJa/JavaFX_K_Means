@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" prefHeight="580.0" prefWidth="1080.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jamdes.controller.TabelaDadosFXMLController">
+   <children>
+      <TextArea fx:id="txtDados" layoutX="23.0" layoutY="14.0" prefHeight="549.0" prefWidth="1047.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextArea>
+   </children>
+</Pane>

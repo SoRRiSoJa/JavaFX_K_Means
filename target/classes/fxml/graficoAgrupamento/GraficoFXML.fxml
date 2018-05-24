@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="paneRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1080.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jamdes.controller.GraficoFXMLController">
+   <children>
+      <Pane fx:id="paneBody" layoutX="16.0" layoutY="14.0" prefHeight="548.0" prefWidth="1046.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+   </children>
+</Pane>
